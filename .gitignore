@@ -3,3 +3,4 @@
 # dependencies
 /fastapi-env
 
+.DS_Store
