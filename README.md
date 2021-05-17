@@ -9,3 +9,4 @@
 ## Run command
 
 <code>uvicorn main:app --reload</code>
+<code>uvicorn blog.main:app --reload</code>
