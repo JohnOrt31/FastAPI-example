@@ -1,9 +1,12 @@
 from typing import Optional
 from fastapi import FastAPI
 from fastapi.params import Body
-from . import schemas
+from . import schemas, models
+from .database import engine
 
 app = FastAPI()
+
+models.Base.metadata.create_all(engine)
 
 @app.post('/blog')
 def create(request: schemas.Blog):
