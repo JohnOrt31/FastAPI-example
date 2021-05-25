@@ -6,6 +6,11 @@
     <a href="https://fastapi.tiangolo.com/">FastAPI</a>
 </p>
 
+
+## Run requirements
+<code>pip3 install -r requirements.txt</code>
+
+
 ## Run command
 
 <code>uvicorn main:app --reload</code>
